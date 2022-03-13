@@ -1,5 +1,8 @@
 <html>
     <body>
+        <?php
+          include '../../Header.php';
+        ?>
      <table align = "center">    
          <tr>
           <td > <a href = "../../Admin/Admin_View/admin.php" > <h3>Admin </h3></a> </td>
@@ -29,5 +32,8 @@
             <td><h1> Our packages</h1></td>
         </tr>
     </table>
+    <?php
+          include '../../Footer.php';
+        ?>
     </body>
 </html>
