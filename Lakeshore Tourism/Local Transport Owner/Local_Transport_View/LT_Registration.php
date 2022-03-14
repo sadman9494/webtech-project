@@ -2,7 +2,8 @@
     
 <body>
     <?php
-        include '../../Header.php';
+        include "../../Header.php";
+        include "../Local_Transport_Control/LT_Registration_Control.php";
     ?>
     <h2 align = "center">Company Registration</h2>
     
@@ -10,7 +11,8 @@
     <table align = "center"> 
         <tr>
             <td> Company Name: </td>
-            <td><input type ="text" name = "companyName" > </td>
+            <td><input type ="text" name = "companyName" > 
+            <?php echo $companyNameerr;?> </td>
         </tr>
         <tr>
             <td> First Name: </td>
