@@ -17,7 +17,7 @@
             </tr>   
             <tr>
                 
-               <td align = "center"><h4> Payment Method</h4> Bikash,Visa</td>
+              <td align = "center"><h4> Payment Method</h4> Mobile Banking, Visa Card</td>
                
                  
             

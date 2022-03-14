@@ -5,7 +5,7 @@
         ?>
      <table align = "center">    
          <tr>
-          <td > <a href = "../../Admin/Admin_View/admin.php" > <h3>Admin </h3></a> </td>
+          <td > <a href = "../../Admin/Admin_View/adminlogin.php" > <h3>Admin </h3></a> </td>
           <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 
           <td > <a href = "../../Customer/Customer_View/customer.php"> <h3>Customer </h3></a> </td>
