@@ -3,7 +3,7 @@
     <table align = "center" > 
             <tr>
                <hr> 
-            <td align = "center"><h4> Adress  </h4> Banani,Dhaka </td>
+            <td align = "center"><h4> Address  </h4> Banani,Dhaka </td>
             </tr> 
             
             <tr>

@@ -1,7 +1,7 @@
 <?php
-    $companyNameerr = $firstnameerr = $lastnameerr = $phnNumbererr = $totalDrivererr = $emailerr = $passworderr = $confirmPassworderr = $allemperr = " ";
+    $companyNameerr = $firstnameerr = $lastnameerr = $phnNumbererr = $totalDrivererr = $emailerr = $passworderr = $confirmPassworderr = " ";
 
-    if(isset($_POST["submit"]))
+    if(isset($_POST["UPDATE"]))
     {
         $companyName = $_POST["companyName"];
         $firstName = $_POST["firstName"];
@@ -13,21 +13,19 @@
         $password = $_POST["password"];
         $confirmPassword = $_POST["confirmPassword"];
 
-        if(empty($companyName)||empty($firstName)||empty($lastName)||empty($phnNumber)||empty($email)||empty($password)||empty($confirmPassword))
-        {
-            $allemperr = "No fields can be empty";
-        }
-        else
-        {
-            if(strlen($companyName)<5)
+        $flag = true;
+
+           if(strlen($companyName)<5)
             {
                 $companyNameerr = "please enter a valid Company name";
+                $flag = false;
             }
 
             
             if(strlen($firstName)<5)
             {
                 $firstNameerr = "please enter a valid firstName";
+                $flag = false;
             }
 
 
@@ -35,18 +33,21 @@
             if(strlen($lastName)<5)
             {
                 $lastNameerr = "please enter a valid lastName";
+                $flag = false;
             }
 
  
             if(!preg_match("/^[0-9]{11}$/", $phnNumber)) 
             {
                 echo "please enter a valid Phone number";
+                $flag = false;
             }
 
 
             if($totalDriver != $totalCar)
             {
                 $totalDrivererr = "Invalid driver number";
+                $flag = false;
             }
 
 
@@ -54,6 +55,7 @@
             if(strlen($email)<5)
             {
                 $emailerr = "please enter a valid email";
+                $flag = false;
             }
 
 
@@ -61,13 +63,21 @@
             if(strlen($password)<8)
             {
                 echo "please enter a valid password";
+                $flag = false;
             }
 
 
             if($confirmPassword != $Password)
             {
                 echo "Password does not match";
+                $flag = false;
             }
+
+            if($flag == true)
+            {
+                header("location: ../Local_Transport_View/LT_Home.php");
+            }
+            
 
 
 
@@ -89,7 +99,7 @@
                 echo "Specified file is not a ".$_FILES["file"]["type"];
                 echo "<br>";
             }*/
-        }
+    
         
         
 
