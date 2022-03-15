@@ -65,6 +65,9 @@
                 <td><td><input type = "submit" name = "SUBMIT"> </td></td>
             </tr> 
             <tr align = "left">
+                <td><td><input type = "reset"> </td></td>
+            </tr> 
+            <tr align = "left">
                 <td><td><a href = "LT_Login.php"> Go to Login Instead</td></td>
             </tr>
             <tr>

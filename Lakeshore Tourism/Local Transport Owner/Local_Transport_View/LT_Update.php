@@ -125,7 +125,7 @@
                 <td><td><input type = "submit" name = "UPDATE" value = "UPDATE"> </td></td>
             </tr> 
             <tr align = "left">
-                <td><td><input type = "submit" name = "CANCEL" value = "CANCEL"> </td></td>
+                <td><td><input type = "reset"> </td></td>
             </tr>
 
         </table>
