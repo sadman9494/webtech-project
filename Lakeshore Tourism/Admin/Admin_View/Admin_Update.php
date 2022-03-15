@@ -10,17 +10,17 @@
         <tr>
                 <td> Name</td>
                 <td> <input type ="text" name = "name">
-                <?php echo $namerr;?>
+                <?php echo $namerr;?></td>
             </tr>
             <tr>
                 <td> Age</td>
                 <td> <input type ="text" name = "age" min  = "18" max ="40">
-                <?php echo $agerr;?>
+                <?php echo $agerr;?></td>
             </tr>
             <tr>
                 <td> Phone number</td>
                 <td> <input type ="text" name = "number">
-                <?php echo $numerr;?>
+                <?php echo $numerr;?></td>
             </tr>
             <tr>
                 <td> Designation</td>

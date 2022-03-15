@@ -10,7 +10,12 @@
                     
                  </tr>
                  <tr> 
-                     <td><a href = "../Package_View"> Create Packages</td>
+                     <td><a href = "../Package_View/Create_Package.php"> Create Packages</td>
+                    
+                </tr>
+                <tr>
+                    
+                    <td> <a href = "../Package_View/Packages.php">Packages</td>
                     
                 </tr>
                 <tr>
