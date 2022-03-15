@@ -1,0 +1,20 @@
+[
+    {
+        "pname": "package 1",
+        "location": "bangladesh",
+        "day": "09",
+        "price": "4500"
+    },
+    {
+        "pname": "package 2",
+        "location": "CoxBazar",
+        "day": "09",
+        "price": "4500"
+    },
+    {
+        "pname": "package 3",
+        "location": "bandarban",
+        "day": "08",
+        "price": "1200"
+    }
+]

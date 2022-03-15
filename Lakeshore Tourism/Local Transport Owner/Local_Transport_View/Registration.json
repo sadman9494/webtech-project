@@ -1,0 +1,13 @@
+[
+    {
+        "companyName": "Udoy Co.",
+        "firstName": "Sadman",
+        "lastName": "Shakib",
+        "phnNumber": "01578963145",
+        "totalCar": "15",
+        "totalDriver": "15",
+        "email": "sadman@gmail.com",
+        "password": "12345678",
+        "confirmPassword": "12345678"
+    }
+]
