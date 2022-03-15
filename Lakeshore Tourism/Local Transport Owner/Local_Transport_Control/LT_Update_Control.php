@@ -15,14 +15,14 @@
 
         $flag = true;
 
-           if(strlen($companyName)<5)
+           if (!preg_match("/^[a-zA-Z-' ]*$/",$companyName))
             {
                 $companyNameerr = "please enter a valid Company name";
                 $flag = false;
             }
 
             
-            if(strlen($firstName)<5)
+            if (!preg_match("/^[a-zA-Z-' ]*$/",$firstName))
             {
                 $firstNameerr = "please enter a valid firstName";
                 $flag = false;
@@ -30,7 +30,7 @@
 
 
             
-            if(strlen($lastName)<5)
+            if (!preg_match("/^[a-zA-Z-' ]*$/",$lastName))
             {
                 $lastNameerr = "please enter a valid lastName";
                 $flag = false;
@@ -52,7 +52,7 @@
 
 
 
-            if(strlen($email)<5)
+            if (!filter_var($email, FILTER_VALIDATE_EMAIL))
             {
                 $emailerr = "please enter a valid email";
                 $flag = false;
@@ -73,32 +73,15 @@
                 $flag = false;
             }
 
-
-            if($_FILES["file"]["type"] == "image/jpeg")
-            {
-                if(move_uploaded_file($_FILES["file"]["tmp_name"], "../../image/".$companyName.date("y-m-d").".jpeg"))
-                {
-                    echo "File Uploaded";
-                    include "LT_Registration_json.php";
-                    
-                }
-                else
-                {
-                    echo "Upload failed";
-                    $flag = false;
-                }
-            }
-            else
-            {
-                echo "<br>";
-                echo "Specified file is not an image";
-                $flag = false;
-            }
-            
-            if($flag == true)
-            {
-                header("location: ../Local_Transport_View/LT_Home.php");
-            }
+        if($flag == true)
+        {
+            include "LT_Registration_json.php";
+            header("location: ../Local_Transport_View/LT_Home.php");
+        }
+        else
+        {
+            echo "Registration Unsuccessful...";
+        }
     }
  
  ?>

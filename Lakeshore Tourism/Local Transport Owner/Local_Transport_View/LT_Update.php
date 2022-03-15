@@ -90,8 +90,7 @@
                 </tr>
                 <tr>
                     <td>Location: </td>
-                    <td><input type = "text" name = "location">
-                        <?php //echo $companyNameerr;?> </td>
+                    <td><input type = "text" name = "location"></td>
                 </tr>
 
             <tr>
@@ -100,13 +99,11 @@
 
                 <tr>
                     <td>Total Cars: </td>
-                    <td><input type = "number" name = "totalCar" min ="1" max ="100">
-                        <?php //echo $companyNameerr;?> </td>
+                    <td><input type = "number" name = "totalCar" min ="1" max ="100"></td>
                 </tr>
                 <tr>
                     <td>Total Driver: </td>
-                    <td><input type = "number" name = "totalDriver" min ="1" max ="100">
-                        <?php //echo $companyNameerr;?> </td>
+                    <td><input type = "number" name = "totalDriver" min ="1" max ="100"></td>
                 </tr>
 
             <tr>

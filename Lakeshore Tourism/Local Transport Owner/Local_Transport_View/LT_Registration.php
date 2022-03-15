@@ -35,8 +35,7 @@
             </tr>
             <tr>
                 <td>Total Driver: </td>
-                <td><input type = "number" name = "totalDriver" min ="1" max ="100">
-                    <?php //echo $companyNameerr;?> </td>
+                <td><input type = "number" name = "totalDriver" min ="1" max ="100"></td>
             </tr>
             <tr>
                 <td>Location: </td>
@@ -59,7 +58,8 @@
             </tr>
             <tr>  
                 <td>Upload Trade Licence: </td>  
-                <td><input type = "file" name = "file"> </td> 
+                <td><input type = "file" name = "file"> 
+                <?php echo $fileerr;?></td> 
             </tr>
             <tr align = "left">
                 <td><td><input type = "submit" name = "SUBMIT"> </td></td>
