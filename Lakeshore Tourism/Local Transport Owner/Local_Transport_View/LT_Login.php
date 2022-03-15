@@ -16,7 +16,7 @@
                         <td> <input type = "password" name = "password"></td>
                     </tr>
                     <tr align = "center">
-                        <td><td><input type = "submit" name = "login" value = "LOGIN"></td></td>     
+                        <td><td><input type = "submit" name = "LOGIN" value = "LOGIN"></td></td>     
                     </tr>
                     <tr align = "left">
                         <td><td><a href = "LT_Registration.php"> Go to Registration Instead</td></td>

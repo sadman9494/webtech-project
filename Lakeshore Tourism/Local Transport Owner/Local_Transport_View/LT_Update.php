@@ -3,8 +3,58 @@
 <body>
     <?php
         include "../../Header.php";
+        //include "LT_Home.php";
         include "../Local_Transport_Control/LT_Registration_Control.php";
     ?>
+            <form action = "" method = "post">
+                <table  align ="center">
+                    <tr>
+                        <td><td> <a href = "LT_Reg_Data_View.php"> General Information </td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><td> <a href = "#">Car List </td> </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><td> <a href = "#">Driver List </td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><td> <a href = "#">Trip History </td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><td> <a href = "#">Financial Information </td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><td> <a href = "LT_Update.php"> Update Information </td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><td><a href = "../Local_Transport_Control/Logout.php"> LOG OUT</td></td>
+                    </tr>
+                </table>
+            </from>
+
     <h2 align = "center">Update Information</h2>
 
         <form method = "Post" enctype = "multipart/form-data">
@@ -75,10 +125,10 @@
             </tr>
 
             <tr align = "left">
-                <td><td><input type = "submit" name = "UPDATE"> </td></td>
+                <td><td><input type = "submit" name = "UPDATE" value = "UPDATE"> </td></td>
             </tr> 
-            <tr align = "right">
-                <td><td><input type = "submit" name = "CANCEL"> </td></td>
+            <tr align = "left">
+                <td><td><input type = "submit" name = "CANCEL" value = "CANCEL"> </td></td>
             </tr>
 
         </table>

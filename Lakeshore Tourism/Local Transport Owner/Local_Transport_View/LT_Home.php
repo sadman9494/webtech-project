@@ -7,12 +7,48 @@
             <form action = "" method = "post">
                 <table  align ="center">
                     <tr>
-                        <td><td> <b>General Information</b> </td></td>
-                        <td><td> <b>Car List</b> </td> </td>
-                        <td><td> <b>Driver List</b> </td></td>
-                        <td><td> <b>Trip History</b> </td></td>
-                        <td><td> <b>Financial Information</b> </td></td>
+                        <td><td> <a href = "LT_Reg_Data_View.php"> General Information </td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><td> <a href = "#">Car List </td> </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><td> <a href = "#">Driver List </td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><td> <a href = "#">Trip History </td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><td> <a href = "#">Financial Information </td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                         <td><td> <a href = "LT_Update.php"> Update Information </td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><td><a href = "../Local_Transport_Control/Logout.php"> LOG OUT</td></td>
                     </tr>
                 </table>
 
