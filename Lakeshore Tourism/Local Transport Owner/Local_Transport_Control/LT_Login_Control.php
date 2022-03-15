@@ -19,7 +19,7 @@
                     $_SESSION["pass"] = $password;
                     header("location: ../Local_Transport_View/LT_Home.php");
                 }
-                //break;
+                break;
             }
             else
             {
@@ -27,6 +27,7 @@
                 break;
             }
         }
+
     }
 
     if(isset( $_SESSION["email"]))

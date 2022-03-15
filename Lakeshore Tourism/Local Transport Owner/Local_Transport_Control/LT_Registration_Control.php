@@ -98,7 +98,7 @@
             else
             {
                 echo "<br>";
-                echo "Specified file is not an image";
+                echo "No fields can be empty";
                 $flag = false;
             }
 

@@ -1,3 +1,29 @@
+<?php
+    session_start();
+    $cookie_name = "Dear_User";
+    $cookie_value = $_SESSION["email"];
+
+    setcookie($cookie_name, $cookie_value, time() + (86400 * 7), "/");
+
+
+    if(!isset($_COOKIE[$cookie_name])) 
+    {
+        echo "This is your first visit...";
+        echo "<br>";
+    } 
+    else 
+    {  
+        echo "Welcome " . $_COOKIE[$cookie_name];
+        echo "<br>";
+    }
+
+
+    if (!isset($_SESSION["email"]))
+    {
+        header('location: LT_Login.php');
+    }
+?>
+
 <html>
     <body> 
         <?php

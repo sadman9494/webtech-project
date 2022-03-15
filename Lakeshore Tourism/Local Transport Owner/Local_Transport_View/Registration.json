@@ -4,32 +4,10 @@
         "firstName": "Sadman",
         "lastName": "Shakib",
         "phnNumber": "01578963145",
-        "totalCar": "12",
-        "totalDriver": "12",
+        "totalCar": "15",
+        "totalDriver": "15",
         "email": "sadman@gmail.com",
         "password": "12345678",
         "confirmPassword": "12345678"
-    },
-    {
-        "companyName": "City Delux",
-        "firstName": "Nafis",
-        "lastName": "Siddiquee",
-        "phnNumber": "01345698745",
-        "totalCar": "18",
-        "totalDriver": "20",
-        "email": "muhib970@gmail.com",
-        "password": "75321598",
-        "confirmPassword": "75321598"
-    },
-    {
-        "companyName": "Chand Mama",
-        "firstName": "Fahim",
-        "lastName": "Haider",
-        "phnNumber": "01912345678",
-        "totalCar": "20",
-        "totalDriver": "20",
-        "email": "fahim@yahoo.com",
-        "password": "78945612",
-        "confirmPassword": "78945612"
     }
 ]
