@@ -1,0 +1,35 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "customer";
+
+$conn = new mysqli($servername , $username ,$password , $database);
+if ($conn->connect_error)
+{
+    die( "connection was succesfull" .$conn -> eroor);
+
+}
+
+
+/*$sql = "CREATE DATABASE customer";
+if ($conn->query($sql)==TRUE)
+{
+    echo "database is created";
+}
+else 
+ echo "not created " .$conn->error;
+*/
+
+$sql1 = "CREATE TABLE users (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                             name VARCHAR(30) NOT NULL,
+                             email VARCHAR(50))";
+if ($conn->query($sql1)==True)
+{
+    echo "table created";
+}
+else 
+ echo "not created".$conn -> error;
+$conn->close();
+
+?>
