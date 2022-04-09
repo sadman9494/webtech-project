@@ -1,5 +1,13 @@
 <html>
     <body>
+        <?php
+        session_start();
+        if (isset($_SESSION["uname"]))
+        {
+            header('location: Admin_Home.php');
+        }
+        include '../../Header.php';
+        ?>
                 <br>
                 <br>
                 <br>
@@ -21,6 +29,7 @@
                 </tr>
                 <tr align = "right">
                     <td ><input type = "submit" name = "login" value = "Login"></td>
+                    <td> <a href = "../../Home/view/home.php"> Main Home </td>
                     
                     
                 </tr>

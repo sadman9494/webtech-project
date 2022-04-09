@@ -18,6 +18,9 @@
                  }
                 ?>               
              </tr>
+             <tr>
+                <td> <a href = "../Admin_View/Admin_Home.php">Back to Home</td>
+             </tr>
         </table>
     </body>
  </html>

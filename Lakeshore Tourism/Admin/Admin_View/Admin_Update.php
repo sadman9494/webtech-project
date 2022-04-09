@@ -1,6 +1,7 @@
 <html>
     <body>
         <?php
+        include '../../Header.php';
          include '../Admin_Control/Admin_Update_Process.php';
         ?>
          <br> <br> <br><br>
@@ -27,13 +28,10 @@
                 <td> <input type="radio" name = "designation" value = "Senior Developer"> Senior Developer
                  <input type="radio" name = "designation" value = "Junior Developer"> Junior Developer</td>
             </tr>
-            <tr>
-                <td> Photo</td>
-                <td> <input type = "file" name = "file "></td>
-                
-            </tr>
+            
             <tr> 
-            <td> <input type = "submit" name = "submit" value = "upload"</td>
+            <td> <input type = "submit" name = "submit" value = "update"</td>
+            <td><a href = "Admin_Home.php">Go to Home</td>
             </tr>
             <tr>
             <td><?php echo $emperr;?></td>

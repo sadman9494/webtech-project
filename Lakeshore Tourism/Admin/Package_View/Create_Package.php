@@ -2,6 +2,9 @@
     <body>
     <?php include '../Package_Control/Packagevalid.php' ?>
         <form action = "" method = "POST">
+        <?php 
+             include '../../Header.php';
+            ?>
             <table align = "center">
                 <tr>
                     <td>
@@ -31,11 +34,16 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type = "submit" name = "submit" value ="upload">
+                        <input type = "submit" name = "submit" value ="upload"></td>
+                        <td><input type = "reset" ></td>
+                        <td> <a href ="../Admin_View/Admin_Home.php">Home 
                         <?php echo $emperr;?>
                     </td>
                 </tr>
             </table>
+            <?php 
+             include '../../Footer.php';
+            ?>
           </form>
           
     </body>
