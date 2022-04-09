@@ -8,7 +8,7 @@
           <td > <a href = "../../Admin/Admin_View/adminlogin.php" > <h3>Admin </h3></a> </td>
           <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 
-          <td > <a href = "../../Customer/Customer_View/customer.php"> <h3>Customer </h3></a> </td>
+          <td > <a href = "../../Customer/Customer_View/Cus_Registration.php"> <h3>Customer </h3></a> </td>
           <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
 
           <td > <a href = "../../Hotel Owner/Hotel_View/hotel.php"> <h3>Hotel Owner </h3> </a> </td>
