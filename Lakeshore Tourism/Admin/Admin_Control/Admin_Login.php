@@ -2,7 +2,7 @@
 //session_start();
 
 if (isset($_POST["login"]))
-{
+{ 
     $uname = $_POST ["uname"];
     $password = $_POST["password"];
    if ($uname == "Admin" && $password == 123)
